@@ -1,0 +1,11 @@
+.tagGroup{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+}
+.tag{
+    display: flex;
+    padding:8px 24px;
+    font-size: 14px;
+    font-family: 'Nunito Sans';
+}

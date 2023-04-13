@@ -1,0 +1,9 @@
+getIngredients = () => {
+    
+}
+getTypes = () => {
+
+}
+getMeals = () => {
+
+}

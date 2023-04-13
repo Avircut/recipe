@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.icon{
+    right: 3px;
+    cursor: pointer;
+    padding:5px;
+    position: absolute;
+    transition: .3s all ease-in;
+    &:hover{
+        color:green;
+    }
+}
+.input{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.input:focus+svg{
+    color:green;
+}

@@ -1,0 +1,57 @@
+/* Переменные для медиа запросов */
+$mobileBreakpoint: 640px;
+$smallTabletBreakpoint: 768px;
+$tabletBreakpoint: 1024px;
+$smallDesktopBreakpoint: 1380px;
+$notebooksBreakpoint: 1600px;
+
+
+/* Ширина контента */
+
+$desktopPadding: 14.5vw;
+$notebookPadding: 6vw;
+$tabletPadding: 5vw;
+$mobilePadding: 10px;
+
+$desktopMaxWidth: calc(100vw - 2 * 8.7vw);
+$notebookMaxWidth: calc(100vw - 2 * 6vw);
+$tabletMaxWidth: calc(100vw - 2 * 4.9vw);
+$mobileMaxWidth: calc(100vw - 2 * 20px);
+
+// Animation Time
+$fastAnim: .3s;
+$mediumAnim: .5s;
+$longAnim: .8s;
+
+// Header
+$headerHeight: 145px;
+$headerHeightNotebook: 96px;
+$headerHeightMobile: 60px;
+
+// Margin
+$desktopSectionsMargin: 8rem;
+$mobileSectionsMargin: 4rem;
+
+// Color
+$darkgreen: #14D100;
+$green: #A5EF00;
+$blue: #31568F;
+$grey: #929292;
+$black: #404040;
+$low: #5c5c5c;
+$bg_blue: #181E37;
+@mixin scroll {
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 4px;
+    }  
+    &::-webkit-scrollbar-track {
+        background-color: $green;
+        border-radius: 5px;
+    }          
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px 5px 0px 0px;
+        background: $blue;
+    }
+  }
+  

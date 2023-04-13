@@ -1,0 +1,15 @@
+.menuItem{
+    display: grid;
+    grid-template-columns: auto 30%;
+}
+.menuTitle{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+.content{
+    padding:35px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

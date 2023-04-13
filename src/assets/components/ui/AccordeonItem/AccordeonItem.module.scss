@@ -1,0 +1,25 @@
+.accordeonItem {
+  display: flex;
+  flex-direction: column;
+}
+.accordeonItem .accordeonHeader svg{
+  transition: .3s all ease-in;
+}
+.accordeonItem.open .accordeonHeader svg{
+  rotate: 180deg;
+}
+.accordeonHeader {
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px #404040;
+  align-items: center;
+  cursor: pointer;
+}
+.accordeonContent{
+    padding-top: 20px;
+}
